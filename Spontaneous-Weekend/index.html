@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+  <!-- Begin head -->
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+
+    <!--Let browser know website is optimized for mobile-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!--Import Google Icon Font-->
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+    <!-- Google cursive font -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Font awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <!-- Compiled and minified CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"
+    />
+
+    <!-- Our CSS file -->
+    <link rel="stylesheet" href="Assets/style/style.css" />
+    <!-- This is the title that appears in the browser tag -->
+    <title>Spontaneous Weekend</title>
+  </head>
+  <!-- End head -->
+
+  <!-- Begin body -->
+  <body>
+    <!-- Begin navbar -->
+    <nav class="nav-wrapper" id="nav-container">
+      <div class="container">
+        <!-- Buttons on navbar -->
+        <a href="#!" class="brand-logo"
+          ><img class="rotate" src="Assets/style/images/wheel.png"
+        /></a>
+        <a href="#" data-target="mobile-demo" class="sidenav-trigger">
+          <i class="material-icons">menu</i>
+        </a>
+        <ul class="right hide-on-med-and-down">
+          <!-- Home button, active page -->
+          <li class="active">
+            <a class="hover" href="index.html"
+              >|Home <i class="fa fa-home" aria-hidden="true"></i
+            ></a>
+          </li>
+          <!-- Film button -->
+          <li>
+            <a class="hover" href="Assets/tabs/movie.html"
+              >Watch <i class="fa fa-film" aria-hidden="true"></i
+            ></a>
+          </li>
+          <!-- Food button -->
+          <li>
+            <a class="hover" href="Assets/tabs/food.html"
+              >Eat <i class="fa fa-cutlery" aria-hidden="true"></i
+            ></a>
+          </li>
+          <!-- Activity button -->
+          <li>
+            <a class="hover" href="Assets/tabs/park.html"
+              >Do <i class="fa fa-bicycle" aria-hidden="true"></i
+            ></a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <!-- Collapsible navbar for smaller screens -->
+    <ul class="sidenav" id="mobile-demo">
+      <!-- Home button, active page -->
+      <li class="active">
+        <a href="index.html"
+          >|Home <i class="fa fa-home" aria-hidden="true"></i
+        ></a>
+      </li>
+      <!-- Film button -->
+      <li>
+        <a href="Assets/tabs/movie.html"
+          >Watch <i class="fa fa-film" aria-hidden="true"></i
+        ></a>
+      </li>
+      <!-- Food button -->
+      <li>
+        <a href="Assets/tabs/food.html"
+          >Eat <i class="fa fa-cutlery" aria-hidden="true"></i
+        ></a>
+      </li>
+      <!-- Activity button -->
+      <li>
+        <a href="Assets/tabs/park.html"
+          >Do <i class="fa fa-bicycle" aria-hidden="true"></i
+        ></a>
+      </li>
+    </ul>
+    <!-- End navbar -->
+
+    <main>
+      <!-- Begin header -->
+      <div class="container body-container" id="header">
+        <h3 class="header-text-title">
+          Sponta<span id="neo">neo</span>us Weekend
+        </h3>
+        <h5 class="header-text">
+          So you don't spend your weekend deciding.
+        </h5>
+      </div>
+      <!-- End header -->
+
+      <!-- Begin image and link cards -->
+      <div class="container" id="cards">
+        <div class="row">
+          <!-- Movie card -->
+          <div class="col s12 m4">
+            <div class="card small">
+              <div class="card-image">
+                <img
+                  class="responsive-img"
+                  src="Assets/style/images/television.jpg"
+                />
+              </div>
+              <div class="card-content">
+                <p>
+                  Let fate decide instead of endlessly scrolling.
+                </p>
+              </div>
+              <div class="card-action #424242 grey darken-4">
+                <a
+                  class="#fafafa grey-text text-lighten-5"
+                  href="Assets/tabs/movie.html"
+                  >Watch</a
+                >
+              </div>
+            </div>
+          </div>
+          <!-- Food card -->
+          <div class="col s12 m4">
+            <div class="card small">
+              <div class="card-image">
+                <img
+                  class="responsive-img"
+                  src="Assets/style/images/french-toast.jpg"
+                />
+              </div>
+              <div class="card-content">
+                <p>
+                  Surprise your taste buds with something new.
+                </p>
+              </div>
+              <div class="card-action #424242 grey darken-4">
+                <a
+                  class="#fafafa grey-text text-lighten-5"
+                  href="Assets/tabs/food.html"
+                  >Eat</a
+                >
+              </div>
+            </div>
+          </div>
+          <!-- Activities card -->
+          <div class="col s12 m4">
+            <div class="card small">
+              <div class="card-image">
+                <img
+                  class="responsive-img"
+                  src="Assets/style/images/flowers.jpg"
+                />
+              </div>
+              <div class="card-content">
+                <p>
+                  Venture outside of your usual places.
+                </p>
+              </div>
+              <div class="card-action #424242 grey darken-4">
+                <a
+                  class="#fafafa grey-text text-lighten-5"
+                  href="Assets/tabs/park.html"
+                  >Do</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- End cards -->
+    </main>
+    <!-- Begin footer -->
+    <div class="footer-copyright footer">
+      <div class="container">
+        A Spontaneous Production 2020
+      </div>
+    </div>
+    <!-- End footer -->
+
+    <!--JavaScript at end of body for optimized loading-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+    <!-- JQuery -->
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.js"
+      integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc="
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script src="Assets/script.js"></script>
+  </body>
+</html>

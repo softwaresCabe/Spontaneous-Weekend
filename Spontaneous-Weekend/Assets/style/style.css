@@ -1,0 +1,99 @@
+/* Styling for the body */
+body {
+  background-color: #950952;
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+/* For the sticky footer */
+main {
+  flex: 1 0 auto;
+}
+
+/* Styling for the navbar container */
+#nav-container {
+  background-color: #023618;
+}
+
+/* Animation for the wheel */
+.rotate {
+  animation: rotation 20s infinite linear;
+}
+@keyframes rotation {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(359deg);
+  }
+}
+
+/* Creates a hover effect on the navbar menu options */
+.hover:hover {
+  color: white;
+}
+
+/* Situating the navbar */
+.navbar-toggle.navbar-left {
+  float: left;
+  margin-left: 25px;
+}
+.navbar-toggle.navbar-right {
+  float: right;
+  margin-left: 10px;
+}
+
+/* Size and position for nav buttons */
+.rightnavbuttons {
+  height: 10px;
+  width: 10px;
+  float: right;
+}
+
+/* Styling for the header container */
+#header {
+  background-color: #73b294;
+  text-align: center;
+  border-radius: 50px;
+  padding: 25px;
+  box-shadow: 0 0 10px 4px;
+  margin-top: 35px;
+  margin-bottom: 25px;
+}
+
+/* For spacing around the header title text */
+.header-text-title {
+  margin: 0.25rem 1rem;
+}
+
+/* For spacing around the header sub-title text */
+.header-text {
+  margin: 0.5rem 1rem;
+}
+
+/* Styling for the "neo" in spontaneous */
+#neo {
+  color: #5e0035;
+}
+
+/* Styling for the cards */
+.card {
+  border-radius: 10px;
+  padding: 25px;
+  box-shadow: 0 0 10px 4px;
+}
+
+.card-action {
+  text-align: center;
+}
+
+/* Creates a sticky footer */
+.footer {
+  width: 100%;
+  background-color: #023618;
+  color: white;
+  text-align: center;
+  font-family: "Dancing Script", cursive;
+  padding: 1.5rem 0rem;
+}
